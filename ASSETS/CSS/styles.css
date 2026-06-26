@@ -1,9 +1,8 @@
 /* ================================
    styles.css — Hoja de estilos externa
-   AE3: Creación y aplicación de estilos CSS
    ================================ */
 
-/* 1. Color de fondo del body */
+/* Color de fondo del body */
 body {
   background-color: lightblue;
   font-family: Arial, sans-serif;
@@ -12,19 +11,33 @@ body {
   padding: 20px;
 }
 
-/* 2. Títulos en color rojo */
-h1 {
+/* Títulos en color rojo */
+h1, h2 {
   color: red;
 }
 
-h2 {
-  color: red;
-}
-
-/* 3. Imagen centrada con ancho 400px y alto 300px */
+/* Imagen centrada 400x300px */
 img {
   width: 400px;
   height: 300px;
   display: block;
   margin: auto;
+}
+
+/* Botón "Ir arriba" fijo en esquina inferior derecha */
+#btnTop {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  padding: 10px 14px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#btnTop:hover {
+  background-color: #ff1493;
 }
