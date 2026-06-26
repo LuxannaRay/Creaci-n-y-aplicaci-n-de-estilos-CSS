@@ -1,0 +1,30 @@
+/* ================================
+   styles.css — Hoja de estilos externa
+   AE3: Creación y aplicación de estilos CSS
+   ================================ */
+
+/* 1. Color de fondo del body */
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* 2. Títulos en color rojo */
+h1 {
+  color: red;
+}
+
+h2 {
+  color: red;
+}
+
+/* 3. Imagen centrada con ancho 400px y alto 300px */
+img {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
